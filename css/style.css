@@ -1,0 +1,75 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    min-height:100vh;
+    color: #fff;
+}
+.btn-notes
+{
+color: #fff;
+transition: background-color,color 0.5s linear;
+}
+.btn-notes:hover
+{
+    color: #fff;
+background-color: #8BC34A
+}
+.note {
+    background: linear-gradient(#F9EFAF, #F7E98D);
+}
+.note-header > *
+{
+    margin-bottom:0;
+}
+.main-note
+{
+        height: 400px;
+
+}
+textarea
+{
+    resize: none;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#F9EFAF, #F7E98D);
+
+}
+textarea ,textarea:focus
+{
+
+    border:none;
+    outline: none;
+}
+.note-content
+{
+    overflow: auto;
+    background-color: #F7E98D;
+    padding:1rem;
+    color:#000;
+width: 100%;
+height:inherit;
+}
+.note-content p
+{
+    word-wrap: break-word;
+    line-height:1.7;
+    word-spacing: 0.05rem;
+
+}
+.hidden
+{
+    display: none;
+
+}
+
+i
+{
+    cursor: pointer;
+}
